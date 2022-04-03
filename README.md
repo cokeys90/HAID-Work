@@ -1,2 +1,2 @@
-# HODW
-half of development work
+# HAID-Work
+half assistant in development work
