@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  thymeleaf:
+    cache: false
+    enabled: true
+    suffix: .html
+#    prefix: classpath:/static/
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true

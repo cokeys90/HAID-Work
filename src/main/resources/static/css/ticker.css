@@ -1,0 +1,97 @@
+th {
+    text-align: left;
+    width: 100pt;
+    padding-top: 5pt;
+    padding-bottom: 4pt;
+    font-family: Consolas;
+    color: #746f6f;
+}
+
+tr {
+    align: left;
+}
+
+td {
+    text-align: left;
+}
+
+.tooltip {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tooltip-text {
+    display: none;
+    position: absolute;
+    max-width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+    color: white;
+}
+
+.price {width: 80pt;}
+
+.pricered {
+    background: #FFF7F9;
+}
+
+.priceblue {
+    background: #F7FBFF;
+}
+
+.red-bg {
+    background: #E12343;
+}
+
+.red-c {
+    color: #E12343;
+}
+
+.blue-bg {
+    background: #1763B6;
+}
+
+.blue-c {
+    color: #1763B6;
+}
+
+.tooltip:hover .tooltip-text {
+    display: block;
+}
+
+
+
+
+table.type11 {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 10px;
+}
+table.type11 th {
+    width: 155px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #ce4869 ;
+}
+table.type11 td {
+    width: 155px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+
+/* 소수점 아래 중요하지 않는 숫자 */
+span.ingredient {
+    color: #aaa;
+}
+
+div {
+    padding: 5px;
+}
